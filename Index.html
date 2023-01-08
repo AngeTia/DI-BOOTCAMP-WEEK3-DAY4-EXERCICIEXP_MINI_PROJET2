@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Gompou Tia Ange">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script defer type="text/javascript" src="./script.js"></script>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<title>Drum Set</title>
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="drum" data-key="65"><kbd>A</kbd><span class="note">Boom</span></div>
+			<div class="drum" data-key="83"><kbd>S</kbd><span class="note">Clap</span></div>
+			<div class="drum" data-key="68"><kbd>D</kbd><span class="note">HiHat</span></div>
+			<div class="drum" data-key="70"><kbd>F</kbd><span class="note">Kick</span></div>
+			<div class="drum" data-key="71"><kbd>G</kbd><span class="note">OpenHat</span></div>
+			<div class="drum" data-key="72"><kbd>H</kbd><span class="note">Ride</span></div>
+			<div class="drum" data-key="74"><kbd>J</kbd><span class="note">Snare</span></div>
+			<div class="drum" data-key="75"><kbd>K</kbd><span class="note">Tink</span></div>
+			<div class="drum" data-key="76"><kbd>L</kbd><span class="note">Tom</span></div>
+
+			<!-- The directoty of my sound melody when the letter key's ckicked ! -->
+			<audio data-key="65" src="./sons/boom.wav" type="audio/wav"></audio>
+			<audio data-key="83" src="./sons/clap.wav" type="audio/wav"></audio>
+			<audio data-key="68" src="./sons/hihat.wav" type="audio/wav"></audio>
+			<audio data-key="70" src="./sons/kick.wav" type="audio/wav"></audio>
+			<audio data-key="71" src="./sons/openhat.wav" type="audio/wav"></audio>
+			<audio data-key="72" src="./sons/ride.wav" type="audio/wav"></audio>
+			<audio data-key="74" src="./sons/snare.wav" type="audio/wav"></audio>
+			<audio data-key="75" src="./sons/tink.wav" type="audio/wav"></audio>
+			<audio data-key="76" src="./sons/tom.wav" type="audio/wav"></audio>
+		</div>
+	</body>
+</html>
